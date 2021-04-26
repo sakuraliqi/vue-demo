@@ -4,7 +4,7 @@
  * @Author: liqi
  * @Date: 2021-04-22 20:48:33
  * @LastEditors: sueRimn
- * @LastEditTime: 2021-04-24 00:06:43
+ * @LastEditTime: 2021-04-26 22:37:21
  */
 //引入vue
 import Vue from 'vue';
@@ -21,7 +21,7 @@ const routes = [
     { path: '/indexDetail', component: resolve => (require(["@/view/BusinessManagement/indexDetail.vue"], resolve)) },
     { path: '/hbTable', component: resolve => (require(["@/view/hbTable.vue"], resolve)) },
 ]
-
+console.log("1111");
 //实例化VueRouter并将routes添加进去
 const router = new VueRouter({
     //ES6简写，等于routes：routes
